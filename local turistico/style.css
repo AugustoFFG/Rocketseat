@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+img {
+  width: 100%;
+}
+body{
+    background-color: #F5F4F0;
+}
+
+.container{
+    width: 1120px;
+    margin: 88px auto;
+}
+h1{
+    margin: 8px 0 40px;
+}
+
+#headline{
+    color: #E1624F;
+}
+
+.Blue{
+    color: #0C51A7;
+}
+
+.Purple{
+    color: #591B98
+}
+
+.Pink{
+    color: #E5245E
+}
+
+.Orange{
+    color: #E95E10;
+}
