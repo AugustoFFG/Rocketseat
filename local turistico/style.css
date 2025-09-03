@@ -2,25 +2,102 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
-}
-img {
-  width: 100%;
-}
-body{
-    background-color: #F5F4F0;
 }
 
-.container{
-    width: 1120px;
-    margin: 88px auto;
+img{
+  width: 100%;
 }
-h1{
-    margin: 8px 0 40px;
+
+body{
+    background-color: #F5F4F0;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+main{
+    width: 1120px;
+    margin: 88px auto 211px;
+    font-family: "Open Sans", sans-serif;
 }
 
 #headline{
     color: #E1624F;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+h1{
+    margin: 8px auto 44px;
+    line-height: 49px;
+    font-size: 36px;
+}
+
+h2{
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 8px;
+}
+
+h3{
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 4px;
+}
+
+#italic{
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic; 
+  text-align: center;
+  color: #333333;
+  margin-top: 24px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 40px auto 64px;
+  background-color: #d9d9d9;
+}
+
+#headline + h2{
+    margin-top: 2px;
+}
+
+.parafraph{
+    color: #333333;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+p + img{
+    margin-top: 64px;
+}
+
+img + h3{
+    margin-top: 20px;
+}
+
+ul + img{
+    margin-top: 48px;
+}
+
+ul {
+    font-weight: bold;
+    margin-top: 0;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#list{
+    font-weight: bold;
+}
+
+ul li::marker {
+  color: black;
 }
 
 .Blue{
@@ -37,4 +114,18 @@ h1{
 
 .Orange{
     color: #E95E10;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 48px;
+    font-size: 16px;
+    color: #333333;
+}
+
+#footerimg{
+    width: 16px;
+    height: auto;
+    font-family: "Alice", serif;
+    vertical-align: middle;   
 }
